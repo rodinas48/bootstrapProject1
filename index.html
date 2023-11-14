@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap project</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/all.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@100;300;400;500;600;700&family=MonteCarlo&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@300;400;500;600&family=Playball&family=Roboto:wght@300;400&family=Rubik:wght@300;400&family=Signika+Negative:wght@300;400&family=Source+Sans+3:wght@300;400&display=swap"
+    rel="stylesheet">
+
+
+</head>
+
+<body>
+ 
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <input type="image" src="./image/logo-removebg-preview.png" class="mx-3 " alt="pic" height="65px" width="65px">
+      <a class="navbar-brand fw-bold" href="#">MEDICAL</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item mx-2">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+
+
+          <li class="nav-item dropdown mx-2">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Departments
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Cardiology</a></li>
+              <li><a class="dropdown-item" href="#">Neurology</a></li>
+              <li><a class="dropdown-item" href="#">Hepatology</a></li>
+              <li><a class="dropdown-item" href="#">Pediatrics</a></li>
+              <li><a class="dropdown-item" href="#">Ophthamology</a></li>
+              <li><a class="dropdown-item" href="#">Dentology</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">MORE..</a></li>
+            </ul>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link " href="#">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn  me-2" type="submit">Search</button>
+          <button class="btn  me-2" type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button " data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./image/slide-1.jpg" class="d-block w-100" alt="slide1">
+        <div class="carousel-caption d-none d-md-block ">
+          <h5 class="fs-2 fw-bold">Welcome To MEDICAL</h5>
+          <p>We welcome new patients from all communities and look forward to seeing you at one of our clinics. </p>
+          <button type="button" class="btn btn-primary">Book Now</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./image/slide-2.jpg" class="d-block w-100" alt="slide-2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="fs-2 fw-bold">Welcome To MEDICAL</h5>
+          <p>We welcome new patients from all communities and look forward to seeing you at one of our clinics. </p>
+          <button type="button" class="btn btn-primary">Book Now</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./image/slide-3.jpg" class="d-block w-100" alt="slide3">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="fs-2 fw-bold">Welcome To MEDICAL</h5>
+          <p>We welcome new patients from all communities and look forward to seeing you at one of our clinics. </p>
+          <button type="button" class="btn btn-primary">Book Now</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+ 
+    <div class="fixed">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-whatsapp"></i></a>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+
+  
+  <div class="card mt-4 w-75 mx-auto">
+    <div class="card-body">
+      <h5 class="card-title fs-2 fw-bold ">Welcome</h5>
+      <p class="card-text">Coming to hospital can be a stressful time for many people. Knowing as much as possible about
+        what to expect can make you feel more comfortable.</p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+
+  <div class="mx-auto my-3 p-5  text-light text-center text-shadow rounded-3 shadow-lg w-75"
+    style="background-color: rgb(31, 121, 163);">
+    <h2>Our Departments</h2>
+  </div>
+  <div class="accordion w-75 mx-auto" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed fw-bold " type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"
+          style="color: rgb(31, 121, 163);">
+          Cardiology
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Cardiology</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sunt itaque
+          doloremque, distinctio quasi consectetur doloribus deserunt adipisci excepturi minima nostrum aliquid
+          sapiente, numquam obcaecati ab id omnis cumque similique.
+
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed fw-bold " type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+          style="color: rgb(31, 121, 163);">
+          Neurology
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong> Neurology</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sunt itaque
+          doloremque, distinctio quasi consectetur doloribus deserunt adipisci excepturi minima nostrum aliquid
+          sapiente, numquam obcaecati ab id omnis cumque similique.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed fw-bold " type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+          style="color: rgb(31, 121, 163);">
+          Hepatology
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Nihil sunt itaque doloremque, distinctio quasi consectetur doloribus deserunt adipisci excepturi minima
+          nostrum aliquid sapiente, numquam obcaecati ab id omnis cumque similique.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mx-auto my-3 p-5  text-light text-center text-shadow rounded-3 shadow-lg w-75"
+    style="background-color: rgb(31, 121, 163);">
+    <h3>Rate Us With Your Feedback</h3>
+  </div>
+
+  <div class="card w-75 mb-3 mx-auto">
+    <div class="card-body">
+      <h5 class="card-title">Enter Your Feedback</h5>
+      <p class="card-text">With supporting us, improve our quality</p>
+      <textarea id="sentence" class="form-control mx-auto my-3" rows="5" placeholder="Enter your Feedback"
+        name="text"></textarea>
+      <a href="#" class="btn btn-primary float-end">Submit</a>
+    </div>
+  </div>
+  <div class="fixed-img"></div>
+  <div class="mx-auto my-3 p-5  text-light text-center text-shadow rounded-3 shadow-lg w-75"
+    style="background-color: rgb(31, 121, 163);">
+    <h2>Gallery</h2>
+  </div>
+
+  <div class="container text-center gallery">
+    <div class="row row-cols-1 row-cols-sm-3 row-cols-md-5 gap-2">
+      <div class="card mb-3 ">
+        <img src="./image/gallery-1.jpg" class="card-img-top mt-2" alt="g1">
+        <div class="card-body">
+          <h5 class="card-title">Surgical</h5>
+          <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          <button type="button" class="btn btn-primary">Read More</button>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="./image/gallery-2.jpg" class="card-img-top mt-2" alt="g2">
+        <div class="card-body">
+          <h5 class="card-title">LAB TEST</h5>
+          <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          <button type="button" class="btn btn-primary">Read More</button>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="./image/gallery-3.jpg" class="card-img-top mt-2" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">LAB TEST</h5>
+          <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          <button type="button" class="btn btn-primary">Read More</button>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="./image/gallery-4.jpg" class="card-img-top mt-2" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Surgical</h5>
+          <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          <button type="button" class="btn btn-primary">Read More</button>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="./image/gallery-5.jpg" class="card-img-top mt-2" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Covid-19</h5>
+          <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          <button type="button" class="btn btn-primary">Read More</button>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="./image/gallery-6.jpg" class="card-img-top mt-2" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">LAB TEST</h5>
+          <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          <button type="button" class="btn btn-primary">Read More</button>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="./image/gallery-7.jpg" class="card-img-top mt-2" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">X-rays</h5>
+          <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          <button type="button" class="btn btn-primary">Read More</button>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="./image/gallery-8.jpg" class="card-img-top mt-2" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Surgical</h5>
+          <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          <button type="button" class="btn btn-primary">Read More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mx-auto my-3 p-5  text-light text-center text-shadow rounded-3 shadow-lg w-75 thankCard"
+    style="background-color: rgb(31, 121, 163);">
+    <h2>Thanks For</h2>
+  </div>
+  <div class="row w-75 mx-auto text-center thankCard">
+    <div class="col-sm-12 col-md-6 col-lg-4 mb-4 ">
+      <div class="card ">
+        <img src="./image/doctor1.png" class="card-img" alt="doc1">
+        <div class="card-img-overlay text-light">
+          <div class="thanksHead">
+            <h5 class="card-title text-light"> All thanks and appreciation!!</h5>
+          <p class="card-text my-3"><small><i class="far fa-clock"></i> October 15, 2020</small></p>
+          </div>
+          <img class="mr-3 rounded-circle" src="./image/doctor1.png" alt="doc1" style="width:100px">
+          <h5 class="card-title text-light my-3"> DR.George</h5>
+          <p class="card-text"> hospital administrator</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+      <div class="card ">
+        <img src="./image/doctor2.png" class="card-img" alt="doc2">
+        <div class="card-img-overlay text-light">
+          <div class="thanksHead">
+            <h5 class="card-title text-light"> All thanks and appreciation!!</h5>
+          <p class="card-text my-3"><small><i class="far fa-clock"></i> October 15, 2020</small></p>
+          </div>
+                  <img class="mr-3 rounded-circle" src="./image/doctor2.png" alt="doc2" style="width:100px">
+          <h5 class="card-title text-light my-3"> DR.Maria</h5>
+          <p class="card-text"> Medical Director</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+      <div class="card ">
+        <img src="./image/doc3.png" class="card-img" alt="doc3">
+        <div class="card-img-overlay text-light">
+          <div class="thanksHead">
+            <h5 class="card-title text-light"> All thanks and appreciation!!</h5>
+          <p class="card-text my-3"><small><i class="far fa-clock"></i> October 15, 2020</small></p>
+          </div>
+          <img class="mr-3 rounded-circle" src="./image/doc3.png" alt="doc3" style="width:100px">
+          <h5 class="card-title text-light my-3"> DR.Jessica</h5>
+          <p class="card-text">Head Of Departments</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container news">
+    <div class="card mb-3 " style="max-width: 1200px;">
+      <div class="row g-0">
+        <div class="col-md-4 cardimg">
+          <img src="./image/news1.jpg" class="img-fluid rounded-start" alt="news1">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Leukemia children</h5>
+
+            <p class="card-text">
+              <small>
+                <i class="fas fa-calendar-alt mr-2"></i>
+                Mon, May 25th 2020
+              </small>
+            </p>
+            <div class="line"></div>
+            <p class="card-text">With the proper treatment, the outlook is quite good. Most childhood
+              leukemias have very high remission rates, with some up to 90%.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+
+            <ul class="btns ms-0">
+              <li class="btn"><a href="#">
+                  <i class="fas fa-film"></i>
+                  podcast
+                </a></li>
+              <li class="btn"><a href="#">
+                  <i class="fas fa-clock"></i>
+                  55 mins.
+                </a></li>
+              <li class="btn"><a href="#">
+                  <i class="fas fa-play"></i>
+                  play
+                </a></li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1200px;">
+      <div class="row g-0">
+
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Alzheimer’s Patient</h5>
+
+            <p class="card-text">
+              <small>
+                <i class="fas fa-calendar-alt mr-2"></i>
+                Mon, May 25th 2020
+              </small>
+            </p>
+            <div class="line"></div>
+            <p class="card-text">Alzheimer's disease (AD) or senile dementia of Alzheimer’s type (SDAT): ultra-early
+              molecular
+              biological diagnosis and bone marrow restitution.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+
+            <ul class="btns">
+              <li class="btn"><a href="#">
+                  <i class="fas fa-film"></i>
+                  podcast
+                </a></li>
+              <li class="btn"><a href="#">
+                  <i class="fas fa-clock"></i>
+                  55 mins.
+                </a></li>
+              <li class="btn"><a href="#">
+                  <i class="fas fa-play"></i>
+                  play
+                </a></li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="col-md-4 cardimg">
+          <img src="./image/news2.jpg" class="img-fluid rounded-start" alt="news2">
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1200px;">
+      <div class="row g-0">
+        <div class="col-md-4 cardimg">
+          <img src="./image/news3.jpg" class="img-fluid rounded-start" alt="news3">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Hospital Surgeries</h5>
+
+            <p class="card-text">
+              <small>
+                <i class="fas fa-calendar-alt mr-2"></i>
+                Mon, May 25th 2020
+              </small>
+            </p>
+            <div class="line"></div>
+            <p class="card-text">There Is About New 500 Successful Surgeries In our Hospital. A combination of new
+              surgical
+              techniques, advances in anaesthesia.</p>
+
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+
+            <ul class="btns">
+              <li class="btn"><a href="#">
+                  <i class="fas fa-film"></i>
+                  podcast
+                </a></li>
+              <li class="btn"><a href="#">
+                  <i class="fas fa-clock"></i>
+                  55 mins.
+                </a></li>
+              <li class="btn"><a href="#">
+                  <i class="fas fa-play"></i>
+                  play
+                </a></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container my-5">
+    <h2 class="join">JOIN US</h2>
+    <div class="containerCard">
+      <div class="card" style="width: 15rem;">
+        <div class="card-body">
+          <h5 class="card-title">Contact Us</h5>
+          <i class="fas fa-envelope"></i>
+          <p class="card-text"><a href="#">Go To Link</a></p>
+        </div>
+      </div>
+      <div class="card" style="width: 15rem;">
+        <div class="card-body">
+          <h5 class="card-title">Follow Us</h5>
+          <i class="fab fa-facebook-f"></i>
+          <p class="card-text"><a href="#">Go To Link</a></p>
+        </div>
+      </div>
+      <div class="card" style="width: 15rem;">
+        <div class="card-body">
+          <h5 class="card-title">Contact Us</h5>
+          <i class="fab fa-whatsapp"></i>
+          <p class="card-text"><a href="#">Go To Link</a></p>
+        </div>
+      </div>
+      <div class="card" style="width: 15rem;">
+        <div class="card-body">
+          <h5 class="card-title">Follow Us</h5>
+          <i class="fab fa-instagram"></i>
+          <p class="card-text"><a href="#">Go To Link</a></p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <footer class="container-fluid ">
+    <div class="foot-parent">
+      <div class="footContent mission">
+        <h3>
+          <input type="image" src="./image/logo-removebg-preview.png" class="mx-3 " alt="pic" height="40px" width="40px">
+          Our Mission
+        </h3>
+        <hr class="hr">
+        <p>So seed seed green that winged cattle in. Gathering thing made fly you're no divided deep moved us
+          lan Gathering thing us land years living.So seed seed green that winged cattle in. Gathering thing
+          made fly you're no divided deep moved us lan Gathering thing us land years living.</p>
+        <p>So seed seed green that winged cattle in. Gathering thing made fly you're no divided deep moved us
+          lan Gathering thing us land years living.</p>
+      </div>
+      <div class="footContent links">
+        <h3>
+          <input type="image" src="./image/logo-removebg-preview.png" class="mx-3 " alt="pic" height="40px" width="40px">
+          Quick Links
+        </h3>
+        <hr class="hr">
+        <ul>
+          <li class="my-3"><a href="#0">Home</a></li>
+          <li class="my-3"><a href="#0">Services</a></li>
+          <li class="my-3"><a href="#0">Departments</a></li>
+          <li class="my-3"><a href="#0">Contact</a></li>
+          <li class="my-3"><a href="#0">Login</a></li>
+        </ul>
+      </div>
+      <div class="footContent contacts">
+        <h3>
+          <input type="image" src="./image/logo-removebg-preview.png" class="mx-3 " alt="pic" height="40px" width="40px">
+          Contact Us
+        </h3>
+        <hr class="hr">
+        <div class="contact">
+            <i class="fas fa-paper-plane"></i>
+            <span class="mx-2"> Head Office</span>
+            <p>123, Main Street, Your City</p>
+        </div>
+        <div class="contact">
+            <i class="fas fa-phone"></i>
+            <span class="mx-2">Phone Number</span>
+            <p>+123 456 7890</p>
+            <p>+123 456 7890</p>
+        </div>
+        <div class="contact">
+            <i class="fas fa-envelope"></i>
+            <span class="mx-2">Email</span>
+            <p>free@infoexample.com</p>
+            <p>www.infoexample.com</p>
+        </div>
+
+    </div>
+    </div>
+      <div class="copyright py-5">
+        <h5>Copyright &copy; All rights reserved | code by rodina sameh</h5>
+    </div>
+  </footer>
+
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
